@@ -1,0 +1,5 @@
+{
+  "assignees": ["dollin"],
+  "reviewers": ["dollin"],
+  "extends": ["config:recommended", ":dependencyDashboard"]
+}

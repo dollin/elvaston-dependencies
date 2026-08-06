@@ -1,0 +1,54 @@
+[versions]
+kotlin = "2.4.10"
+nodejs = "22.16.0"
+liquibase = "5.0.3"
+h2 = "2.4.240"
+spring-boot = "4.1.0"
+spring-dependency-management = "1.1.7"
+junit-jupiter = "6.1.2"
+mockk = "1.14.11"
+springmockk = "5.0.1"
+versions = "0.59.0"
+node-gradle = "7.1.0"
+kotlin-logging = "8.0.4"
+ktlint = "14.2.0"
+detekt = "2.0.0-alpha.6"
+springdoc = "3.1.0"
+web3j = "6.0.0"
+bcprov = "1.85"
+stripe-java = "33.2.0"
+jackson-module-kotlin = "2.22.1"
+caffeine = "3.2.4"
+firebase-admin = "9.10.0"
+
+[libraries]
+liquibase-core = { module = "org.liquibase:liquibase-core", version.ref = "liquibase" }
+h2 = { module = "com.h2database:h2", version.ref = "h2" }
+jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson-module-kotlin" }
+spring-hateoas = { module = "org.springframework.boot:spring-boot-starter-hateoas" }
+spring-boot-starter-liquibase = { module = "org.springframework.boot:spring-boot-starter-liquibase" }
+spring-boot-starter-webmvc-test = { module = "org.springframework.boot:spring-boot-starter-webmvc-test" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-jupiter" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+springmockk = { module = "com.ninja-squad:springmockk", version.ref = "springmockk" }
+kotlin-logging = { module = "io.github.oshai:kotlin-logging-jvm", version.ref = "kotlin-logging" }
+caffeine = { module = "com.github.ben-manes.caffeine:caffeine", version.ref = "caffeine" }
+spring-boot-starter-cache = { module = "org.springframework.boot:spring-boot-starter-cache" }
+spring-boot-starter-mail = { module = "org.springframework.boot:spring-boot-starter-mail" }
+springdoc-openapi = { module = "org.springdoc:springdoc-openapi-starter-webmvc-ui", version.ref = "springdoc" }
+web3j-crypto = { module = "org.web3j:crypto", version.ref = "web3j" }
+bcprov = { module = "org.bouncycastle:bcprov-jdk18on", version.ref = "bcprov" }
+stripe-java = { module = "com.stripe:stripe-java", version.ref = "stripe-java" }
+firebase-admin = { module = "com.google.firebase:firebase-admin", version.ref = "firebase-admin" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
+kotlin-jpa = { id = "org.jetbrains.kotlin.plugin.jpa", version.ref = "kotlin" }
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
+spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "spring-dependency-management" }
+versions = { id = "com.github.ben-manes.versions", version.ref = "versions" }
+node-gradle = { id = "com.github.node-gradle.node", version.ref = "node-gradle" }
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
+detekt = { id = "dev.detekt", version.ref = "detekt" }

@@ -1,0 +1,33 @@
+complexity:
+  active: true
+  LargeClass:
+    active: true
+    allowedLines: 600
+    excludes: ['**/*Test.kt']
+  LongMethod:
+    active: true
+    allowedLines: 30
+    excludes: ['**/*Test.kt']
+  LongParameterList:
+    active: true
+    allowedFunctionParameters: 6
+    allowedConstructorParameters: 16
+    ignoreDefaultParameters: true
+  TooManyFunctions:
+    active: true
+    allowedFunctionsPerClass: 15
+
+performance:
+  active: true
+  SpreadOperator:
+    active: false
+
+style:
+  active: true
+  MagicNumber:
+    active: false
+  MaxLineLength:
+    active: true
+    maxLineLength: 140
+  WildcardImport:
+    active: true
