@@ -1,5 +1,13 @@
 {
   "assignees": ["dollin"],
   "reviewers": ["dollin"],
-  "extends": ["config:recommended", ":dependencyDashboard"]
+  "extends": ["config:recommended", ":dependencyDashboard"],
+  "automerge": true,
+  "automergeType": "pr",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
 }
