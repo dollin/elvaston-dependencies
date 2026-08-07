@@ -10,7 +10,7 @@ springdoc = "3.1.0"
 # Build & code quality plugins
 detekt = "2.0.0-alpha.6"
 ktlint = "14.2.0"
-versions = "0.59.0"
+versions = "0.60.0"
 
 # Database & persistence
 h2 = "2.4.240"
