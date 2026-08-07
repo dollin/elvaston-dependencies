@@ -1,9 +1,9 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "assignees": ["dollin"],
   "reviewers": ["dollin"],
   "extends": ["config:recommended", ":dependencyDashboard"],
-  "automerge": true,
-  "automergeType": "pr",
+  "rebaseWhen": "conflicted",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
