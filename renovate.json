@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "assignees": ["dollin"],
   "reviewers": ["dollin"],
-  "assignAutomerge": true,
   "extends": ["config:recommended", ":dependencyDashboard"],
   "rebaseWhen": "conflicted",
   "packageRules": [
