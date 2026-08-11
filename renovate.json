@@ -4,6 +4,7 @@
   "reviewers": ["dollin"],
   "extends": ["config:recommended", ":dependencyDashboard"],
   "rebaseWhen": "conflicted",
+  "labels": [ "automerge-deps" ],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
