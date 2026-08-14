@@ -27,7 +27,7 @@ kotlin-logging = "8.0.4"
 otel-instrumentation = "2.30.0"
 
 # JSON / serialization
-json = "20250517"
+json = "20260719"
 
 # Utilities
 caffeine = "3.2.4"
