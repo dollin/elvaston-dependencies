@@ -24,7 +24,7 @@ springmockk = "5.0.1"
 
 # Logging & observability
 kotlin-logging = "8.0.4"
-otel-instrumentation = "2.30.0"
+otel-instrumentation = "2.31.0"
 
 # JSON / serialization
 json = "20260814"
