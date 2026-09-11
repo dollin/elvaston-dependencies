@@ -34,7 +34,7 @@ caffeine = "3.2.4"
 lombok = "1.18.48"
 
 # Crypto / blockchain
-bcprov = "1.85.2"
+bcprov = "1.86"
 
 # Spring Boot version overrides
 netty = "4.2.16.Final"
