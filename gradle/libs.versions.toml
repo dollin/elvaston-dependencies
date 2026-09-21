@@ -30,7 +30,7 @@ otel-instrumentation = "2.31.1"
 json = "20260814"
 
 # Utilities
-caffeine = "3.2.4"
+caffeine = "3.3.0"
 lombok = "1.18.48"
 
 # Crypto / blockchain
