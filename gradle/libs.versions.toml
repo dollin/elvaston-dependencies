@@ -13,7 +13,7 @@ ktlint = "14.2.0"
 versions = "0.64.0"
 
 # Database & persistence
-h2 = "2.5.250"
+h2 = "2.5.252"
 oracle-jdbc = "19.3.0.0"
 
 # Testing
