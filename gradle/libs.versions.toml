@@ -23,7 +23,7 @@ mockk = "1.14.12"
 springmockk = "5.0.1"
 
 # Logging & observability
-kotlin-logging = "8.0.6"
+kotlin-logging = "8.0.7"
 otel-instrumentation = "2.33.1"
 
 # JSON / serialization
